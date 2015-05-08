@@ -1,0 +1,88 @@
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server version:        Apache Tomcat/7.0.61
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server built:          Mar 27 2015 12:03:56 UTC
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server number:         7.0.61.0
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Name:               Mac OS X
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Version:            10.10.3
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Architecture:          x86_64
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Version:           1.8.0_45-b14
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Vendor:            Oracle Corporation
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_BASE:         /Users/richard/repos/kbe/apache-tomcat-7.0.61
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_HOME:         /Users/richard/repos/kbe/apache-tomcat-7.0.61
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.util.logging.config.file=/Users/richard/repos/kbe/apache-tomcat-7.0.61/conf/logging.properties
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.endorsed.dirs=/Users/richard/repos/kbe/apache-tomcat-7.0.61/endorsed
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.base=/Users/richard/repos/kbe/apache-tomcat-7.0.61
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.home=/Users/richard/repos/kbe/apache-tomcat-7.0.61
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Djava.io.tmpdir=/Users/richard/repos/kbe/apache-tomcat-7.0.61/temp
+Mai 08, 2015 12:52:59 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMATION: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/richard/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Mai 08, 2015 12:52:59 AM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initializing ProtocolHandler ["http-bio-8080"]
+Mai 08, 2015 12:52:59 AM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.Catalina load
+INFORMATION: Initialization processed in 608 ms
+Mai 08, 2015 12:52:59 AM org.apache.catalina.core.StandardService startInternal
+INFORMATION: Starting service Catalina
+Mai 08, 2015 12:52:59 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMATION: Starting Servlet Engine: Apache Tomcat/7.0.61
+Mai 08, 2015 12:52:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/docs
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/docs has finished in 359 ms
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/examples
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/examples has finished in 302 ms
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/host-manager
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/host-manager has finished in 56 ms
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/manager
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/manager has finished in 68 ms
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deploying web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/ROOT
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMATION: Deployment of web application directory /Users/richard/repos/kbe/apache-tomcat-7.0.61/webapps/ROOT has finished in 40 ms
+Mai 08, 2015 12:53:00 AM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["http-bio-8080"]
+Mai 08, 2015 12:53:00 AM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["ajp-bio-8009"]
+Mai 08, 2015 12:53:00 AM org.apache.catalina.startup.Catalina start
+INFORMATION: Server startup in 886 ms
+Mai 08, 2015 12:53:19 AM org.apache.catalina.core.StandardServer await
+INFORMATION: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mai 08, 2015 12:53:19 AM org.apache.coyote.AbstractProtocol pause
+INFORMATION: Pausing ProtocolHandler ["http-bio-8080"]
+Mai 08, 2015 12:53:19 AM org.apache.coyote.AbstractProtocol pause
+INFORMATION: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mai 08, 2015 12:53:19 AM org.apache.catalina.core.StandardService stopInternal
+INFORMATION: Stopping service Catalina
+Mai 08, 2015 12:53:19 AM org.apache.coyote.AbstractProtocol stop
+INFORMATION: Stopping ProtocolHandler ["http-bio-8080"]
+Mai 08, 2015 12:53:19 AM org.apache.coyote.AbstractProtocol stop
+INFORMATION: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mai 08, 2015 12:53:19 AM org.apache.coyote.AbstractProtocol destroy
+INFORMATION: Destroying ProtocolHandler ["http-bio-8080"]
+Mai 08, 2015 12:53:19 AM org.apache.coyote.AbstractProtocol destroy
+INFORMATION: Destroying ProtocolHandler ["ajp-bio-8009"]
