@@ -22,5 +22,13 @@
 Schritte der Entwicklung einer Web-Applikation
 1. Code der Web-Komponente entwickeln (die Funktionalität), i.e. ManagedBeans, Facelets, Utilities
 2. Entwickeln des Application Deployment Desciptors (Informationen die der Sever braucht um die Applikation zu starten und laufen zu lassen, i.e. die web.xml)
-3. Komplilieren
+3. Komplilieren der Web-Applikation und Helferklassen
+4. Web-Applikation in Entwicklungseinheit verpacken, i.e. WAR-File
+5. Web-Applikation in einem Container einbauen
+6. Web-Applikation über URL ansteuern
+
+##e.) 
+- FlowScoped: Objekt wird nur in einem bestimmten Anwendungsverlauf gespeichert, also einen vordefinierten Pfad von Interaktionen des Benutzers mit der Applikation
+- Dependent: Exisitiert nur im Rahmen der Existenz eines anderen Objekts
+
 
