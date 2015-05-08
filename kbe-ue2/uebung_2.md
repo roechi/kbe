@@ -31,4 +31,6 @@ Schritte der Entwicklung einer Web-Applikation
 - FlowScoped: Objekt wird nur in einem bestimmten Anwendungsverlauf gespeichert, also einen vordefinierten Pfad von Interaktionen des Benutzers mit der Applikation
 - Dependent: Exisitiert nur im Rahmen der Existenz eines anderen Objekts
 
-
+##f.)
+FlowScoped taucht in der Beschreibung nicht auf. Wieso?
+CDI - Context and Dependency Injection
