@@ -1,0 +1,78 @@
+Aufgabe 1
+a)
+1. - Nein, JavaEE erweitert JavaSE um weitere Funktionalitäten
+	 --> JavaSE Teil von JavaEE
+2. - ermöglicht komponentenbasierte Entwicklung (portierbare, skalierbare Anwendungen)
+	 - ermöglicht Entwicklung Mehrschichtige Architekturen
+	 - ermöglicht Entwicklung Web-Servies
+   - Objekt-Relationales-Mapping
+3. - convention over configuration
+   - convention over annotations
+4. - convention over configuration: Konfigurationen werden vorgegeben, 
+		 nutzt man soweit bis man einen besonderen Eingriff machen muss wo die Vorgabe nicht mehr ausreicht
+5. - Client-Server-Architektur
+   - Infrastruktur von Präsentation, Datenverarbeitung, Datenverwaltung physikalisch getrennt (Basismuster)
+	 - können weitere spezifische Schichten indivuell hinzugefügt werden
+6. - 
+7. - Web Profile: Entwicklungsumgebung die bestimmte Komponenten / Module / Techniken speziell zur Webentwicklung zur Verfügung stellt
+
+
+	 --> JavaEE ermöglicht die Entwicklung verteilter Software (Middelware)
+	 --> JavaSE stellt Basisfunktionalität zur Entwicklung von Desktop-Anwendungen bereit
+
+b)
+1. Wofür sind in Java EE Container da?
+- nimmt dem Entwickler die Implementierung der Schnittstellenkommunikation zwischen der zu entwickeltenden Komponente und der systemnahen platformspezifischen Funktionalität, welche von der Komponente unterstützt wird, ab
+- stellt Dienste für Komponenten zur Verfügung nach Spezifikation des Komponentenmodells
+
+2. Welche unterschiedlichen serverseitigen Container-Typen gibt es?
+- EJB-Container als Laufzeitumgebung für Enterprise Java Beans (Applikation die verteilt auf mehreren Machinen liegt)
+- Web-Container als Laufzeitumgebung für Servlets und JavaServer Pages (JSP)
+- "einen JCA-Container als Laufzeitumgebung für JCA Connectoren"
+- "JMS-Provider als Verwaltungssystem für Nachrichtenwarteschlangen"
+
+Welchen der beiden Typen kennen wir schon? 
+- Web-Container
+- z.B. Tomcat implementiert einen WebContainer
+
+Wofür ist er laut dieser Dokumentation verantwortlich?
+- steuert die Ausführung von Webseiten, Servlets und einige EJB-Komponenten für JavaEE Applications
+
+3. Was ist der Unterschied zwischen einem Java EE Server und einem Container?
+- der Java EE Server stellt die gesamte Laufzeitumgebung mit spezieller Infrastruktur für ein JavaEE-Produkt zur Verfügung,
+  ein Container ist Teil dieser Laufzeitumgebung und regelt die Kommunikation innerhalb dieser
+- z.B. Tomcat stellt vollständigen Webserver zur Verfügung, leitet Anfragen zu WebContainer weiter
+
+4. Haben wir mit dem Tomcat 7 einen Java EE Server oder einen Container im Einsatz?
+- Tomcat 7 ist ein Java EE Server
+
+c)
+Was ist der Unterschied zwischen Presentation oriented Web Application und Service oriented web Application?
+- präsentationsorientiert: erzeugt interaktive webseiten mit unterschiedlichen Textauszeichnungssprachen und dynamischem Inhalt,
+  ist dazu da um von einem menschlichen Nutzer benutzt zu werden
+- serviceorientiert: implementiert den Endpunkt eines Web-Services, stellt Dienste/Funktionen bereit die durch Fernzugriff abgerufen werden können
+  (präsentationsorientierte Web Applikationen fungieren oft als Client von serviceorientierten Webapplikationen)
+
+d)
+Welche Schritte müssen beim Entwickeln einer Web-Applikation (mit Java) durchlaufen werden?
+Überlegen Sie bei jedem einzelnen Schritt: Was ist im Falle von JSF zu tun?
+1. Code von Web-Komponente entwickln | Code von Managed Beans und Facelets entwickeln ABER nicht Controller-Facelet
+2. Web-App-Deployment-Descriptor entwickeln (Alle wichtige Infomationen die der Server braucht um die Webapplikation zu starten) | web.xml 
+3. Komponenten der Web-Applikationen und die dazu referenzierte Helfer-Klassen kompilieren
+4. Web-Applikation in eine "Entwicklungseinheit" verpacken | WAR-Datei
+5. Web-Applikation in einen Web-Container einbauen
+6. Access a URL that references the web application.
+
+e)
+Was bedeutet FlowScoped grob? 
+- Daten/Informationen stehen solange zu Verfügung, bis ein spezifischer Ablauf auf der Web-Applikation durchlaufen wurde
+- z.B. Einkaufsvorgang Online-Shop
+
+Was bedeutet Dependent grob?
+- zeigt an, dass die betreffende Managd Bean in Abhängigkit zu einer anderen Managd Bean steht
+- Daten/Informationen stehen solange zur Vefügung, bis der Scope einer anderen in Abhängigkeit stehenden Managed Bean abgelaufen ist
+
+f) Unterschied zu e)? Wie lässt sich das erklären?
+- FlowScopd taucht in dieser Erklärung nicht auf
+- 
+
