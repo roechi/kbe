@@ -671,3 +671,22 @@
 2015-05-22 12:25:27,050 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue3-1/src/main/resources
 2015-05-22 12:25:27,051 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-05-22 12:25:27,051 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue3-1/src/test/resources
+2015-05-28 14:10:37,083 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2015-05-28 14:10:37,167 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2015-05-28 14:10:37,931 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: de.htw_berlin.ai_bachelor.kbe.counter:kbe_ue5_2:1 @ /Users/richard/repos/kbe/kbe-ue5/kbe_ue5_2/pom.xml.
+2015-05-28 14:10:38,505 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kbe_ue5_2/src/main/java
+2015-05-28 14:10:38,507 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kbe_ue5_2/src/test/java
+2015-05-28 14:10:38,584 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2015-05-28 14:10:39,093 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: de.htw_berlin.ai_bachelor.kbe.counter:kbe_ue5_2:1 @ /Users/richard/repos/kbe/kbe-ue5/kbe_ue5_2/pom.xml.
+2015-05-28 14:10:40,441 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-28 14:10:40,443 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue3-1/src/main/resources
+2015-05-28 14:10:40,448 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-28 14:10:40,450 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue3-1/src/test/resources
+2015-05-28 14:10:41,016 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-28 14:10:41,016 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue5/kbe_ue5_2/src/main/resources
+2015-05-28 14:10:41,023 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-28 14:10:41,023 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue5/kbe_ue5_2/src/test/resources
+2015-05-28 14:10:45,803 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-28 14:10:45,803 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue5/kbe_ue5_2/src/main/resources
+2015-05-28 14:10:45,805 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-28 14:10:45,806 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/richard/repos/kbe/kbe-ue5/kbe_ue5_2/src/test/resources

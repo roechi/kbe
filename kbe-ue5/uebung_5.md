@@ -128,3 +128,6 @@ Es werden die .jar und die .pom im home unter .m2 abgelegt.
 
 ##k.)
 *target* wird gelöscht, also das komplette Kompilat.
+
+#2.)
+##e.) Es passiert nichts, da die Klassen nicht von App verwendet werden.
