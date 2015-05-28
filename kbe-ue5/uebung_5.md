@@ -131,3 +131,15 @@ Es werden die .jar und die .pom im home unter .m2 abgelegt.
 
 #2.)
 ##e.) Es passiert nichts, da die Klassen nicht von App verwendet werden.
+
+#Beleg
+##2.) 
+###Warum ist JUnit ein Framework? 
+- Ist ein wiederverwendbarer Entwurf
+- Hat eine Implementierung
+- Ist für ein bestimmtes Anwendungsgebiet
+- Wird von Entwicklern erweitert (wahrscheinlich)
+- Don‘t call us, we‘ll call you!
+
+###Welche Fälle müssen bedacht werden?
+Alle vorstellbaren und unvorstellbaren Use-Cases.
