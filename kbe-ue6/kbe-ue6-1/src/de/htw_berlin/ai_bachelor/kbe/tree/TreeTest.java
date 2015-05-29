@@ -6,6 +6,7 @@ public class TreeTest {
 		Tree<Integer> t = new Tree<Integer>(1, new Tree<Integer>(23, 
 				new Tree<Integer>(65 , null, null), null), new Tree<Integer>(42, null, null));
 		System.out.println(export(t));
+		System.out.println(TreeSum.sum(t));
 	}
 	
 	public static String export(Tree<Integer> t) {
