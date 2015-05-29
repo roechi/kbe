@@ -9,10 +9,15 @@ public class TreeTest {
 	}
 	
 	public static String export(Tree<Integer> t) {
-		String s = "( val = " + t.getValue() + 
-				", left: " + t.getLeft() != null ? export(t.getLeft()) : "none" + 
-				", right: " + t.getRight() != null ? export(t.getRight()) : "none" + 
-				" )";
+		String s = "( ";
+		if (t != null) {	
+			s+= " val = " + t.getValue() + 
+				", left: " + export(t.getLeft()) + 
+				", right: " +  export(t.getRight());
+		} else { 
+			s += "none";
+		}
+		s += " )";
 		return s;
 	}
 }

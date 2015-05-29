@@ -114,7 +114,7 @@ Ja.
     [INFO] Final Memory: 13M/158M
     [INFO] ------------------------------------------------------------------------
 
-Im *target* werden die Unterordner *surefire-reports* und *test-classes* mi den kompilierten Test-Klassen. 
+Im *target* werden die Unterordner *surefire-reports* und *test-classes* mit den kompilierten Test-Klassen. 
 
 ##h.)
 Struktur wird neu angelegt und files kompiliert.
