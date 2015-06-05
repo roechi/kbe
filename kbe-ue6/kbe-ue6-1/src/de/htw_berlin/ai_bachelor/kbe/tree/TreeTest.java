@@ -2,6 +2,7 @@ package de.htw_berlin.ai_bachelor.kbe.tree;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 
 
@@ -29,19 +30,13 @@ public class TreeTest {
 	}
 	
 	public static <V extends Comparable<V>> Collection<V> filterElements(ComparePredicate<V> comp, Tree<V> t) {
-		Collection<V> col = new ArrayList<V>();
-		if (comp.isOk(t)) 
-			col.add(t.getValue());
-		if (t.getLeft() != null) {
-			Collection<V> col_left = filterElements(comp, t.getLeft());
-			for (V i : col_left) 
-				col.add(i);
-		}
-		if (t.getRight() != null) {
-			Collection<V> col_right = filterElements(comp, t.getRight());
-			for (V i : col_right)
-				col.add(i);
-		}
+		Collection<V> col = new LinkedHashSet<V>();
+		if (t != null) {
+			if (comp.isOk(t)) 
+				col.add(t.getValue());
+			col.addAll(filterElements(comp, t.getLeft()));
+			col.addAll(filterElements(comp, t.getRight()));
+		}	
 		return col; 
 	}
 }
