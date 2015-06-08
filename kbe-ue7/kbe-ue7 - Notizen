@@ -1,0 +1,17 @@
+Aufgabe 7
+===============
+d) Erweitern Sie die Annotation CreationInfo nun derart, dass auch noch folgende Parameter angegeben werden können:
+
+baseclass: 
+Hier kann der Nutzer der Annotation die Basisklasse (Superklasse) der annotierten Klasse angeben. Die Angabe soll vom Typ Class sein. 
+Außerdem soll es einen Default-Wert geben. Überlegen Sie sich, welcher Wert hier sinnvoll ist und notieren Sie sich den Grund.
+
+-> Als Standardwert wurde java.lang.Object gewählt, da jede Klasse in Java von dieser Oberklasse automatisch erbt.
+
+
+interfaces: 
+Hier kann der Nutzer alle Interfaces angeben, die von der annotierten Klasse implementiert werden. Jedes Interface soll als Objekt
+vom Typ Class angegeben werden. Auch für den Parameter interfaces soll es einen Default-Wert geben. Überlegen Sie sich wieder, 
+welcher Wert hier sinnvoll ist und notieren Sie sich den Grund.
+
+-> Als Standardwert wurde nichts angegeben, da es kein allgemeines Interface in Java gibt und deshalb eine Vorgabe nicht sinnvoll ist. 
