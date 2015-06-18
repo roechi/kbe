@@ -10,17 +10,23 @@ import de.htw_berlin.ai_bachelor.kbe.checklist.model.ToDoList;
 public class ToDoListMB implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
+	
     private ToDoList toDoList;
+    private String testMessage;
     
 	public ToDoListMB() {
 		super();
 		this.toDoList = new ToDoList();
+		this.testMessage = "Dies ist ein Test";
 	}    
 
 	//TODO
     public ToDoList getToDoList() {
         return toDoList;
+    }
+    
+    public String getTestMessage() {
+    	return testMessage;
     }
 
 	//Should be called if the Button "Speichern" is pushed.
