@@ -12,11 +12,11 @@ public class MyPhaseListener implements PhaseListener {
 	private static final long serialVersionUID = 1L;
 
 	public void afterPhase(PhaseEvent arg0) {
-		System.out.println("Entering Phase: " + this.getPhaseId().getName().toString());
+		System.out.println("Exiting Phase: " + arg0.getPhaseId().toString());
 	}
 
 	public void beforePhase(PhaseEvent arg0) {
-		System.out.println("Exiting Phase: " + this.getPhaseId().toString());
+		System.out.println("Entering Phase: " + arg0.getPhaseId().toString());
 	}
 
 	public PhaseId getPhaseId() {
