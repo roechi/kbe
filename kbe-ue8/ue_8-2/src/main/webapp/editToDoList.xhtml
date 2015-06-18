@@ -31,6 +31,9 @@
 		
 		<h:commandButton  action="#{list.save}" value="Speichern"></h:commandButton>
 	</h:form>  
-	
+	<h:form>
+		<h:commandLink value="Show Time command link" action="showTime"/>
+	</h:form>
+	<h:link outcome="showTime">Show Time normal link</h:link>
 </h:body>
 </html>

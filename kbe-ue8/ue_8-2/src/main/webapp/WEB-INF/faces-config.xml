@@ -8,6 +8,8 @@
     <message-bundle>vvskMessages_de</message-bundle>
 </application>
 
+
+
 <navigation-rule>
 <!-- //TODO -->
 <from-view-id>editToDoList.xhtml</from-view-id>
@@ -17,10 +19,24 @@
 	</navigation-case>
 </navigation-rule>
 
+<navigation-rule>
+<!-- //TODO -->
+<from-view-id>editToDoList.xhtml</from-view-id>
+	<navigation-case>
+		<from-outcome>showTome</from-outcome>
+		<to-view-id>/showTime.xhtml</to-view-id>
+	</navigation-case>
+</navigation-rule>
+
 <managed-bean>
 	<managed-bean-name>currentDateTime</managed-bean-name>
 	<managed-bean-class>java.util.Date</managed-bean-class>
 	<managed-bean-scope>request</managed-bean-scope>
 </managed-bean>
+<lifecycle>
+	<phase-listener>
+		de.htw_berlin.ai_bachelor.kbe.listeners.MyPhaseListener
+	</phase-listener>
+</lifecycle>
 
 </faces-config>
