@@ -118,10 +118,11 @@ Steht im Konflikt mit dem MVC-Modell. Man kann am vorgesehenen Lebenszyklus vorb
 5. (Empty)
 
 ###i.) 
-Da manche Operatorsymbole schon in der EL eine bedeutung haben, müssen diese escaped werden. Kann zu Fehlern führen.
+- Da manche Operatorsymbole schon in der EL eine bedeutung haben, müssen diese escaped werden. Kann zu Fehlern führen.
+- Übermäßige Nutzung widerspricht dem MVC-Model, Logik soll nicht in die Facelets.
 
 ###j.)
-Ab JSF 2.2 können bei Methodenaufrufen Parameter übergeben werden. Coole Sache.
+Ab JSF 2.2 können bei Methodenaufrufen Parameter übergeben werden. Coole Sache. Verleitet allerdings wieder dazu Logik in den Facelets zu implementieren.
 
 ###k.)
 Servlet 3.0 / EL 2.2 capable container like Tomcat 7, Glassfish 3, JBoss AS 6, etc and your web.xml is been declared as per Servlet 3.0 specification.
