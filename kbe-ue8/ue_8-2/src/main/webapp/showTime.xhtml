@@ -11,9 +11,9 @@
 </h:head>
 
 <h:body>
-	Current Date:
+	Current Time:
 	<h:outputText value="#{currentDateTime}">
-    	<f:convertDateTime pattern="dd-MM-yyyy"/>
+    	<f:convertDateTime pattern="HH:mm"/>
 	</h:outputText>
 	<br></br>
 	<h:link value="ToDo" outcome="editToDoList"></h:link>
