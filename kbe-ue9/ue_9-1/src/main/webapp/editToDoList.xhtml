@@ -27,6 +27,11 @@
 			<h:column>
 				<h:selectBooleanCheckbox value="#{toDo.done}"/>
 			</h:column>
+			<h:column>
+				<h:inputText value="#{toDo.date}">
+					<f:convertDateTime pattern="dd.MM.yyyy"/> 
+				</h:inputText>
+			</h:column>
 		</h:dataTable>
 		
 		<h:commandButton  action="#{list.save}" value="Speichern"></h:commandButton>
