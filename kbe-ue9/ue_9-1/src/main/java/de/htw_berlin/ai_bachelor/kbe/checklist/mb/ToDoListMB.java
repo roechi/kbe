@@ -1,8 +1,13 @@
 package de.htw_berlin.ai_bachelor.kbe.checklist.mb;
 
 import java.io.Serializable;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.validator.ValidatorException;
+
 import de.htw_berlin.ai_bachelor.kbe.checklist.model.ToDoList;
 
 @ManagedBean(name="list")
@@ -28,4 +33,8 @@ public class ToDoListMB implements Serializable {
     public String save() {
     	return "save";
     }
+    
+    /*￼public void validate(FacesContext ctx, UIComponent component, Object value) throws ValidatorException {
+    	
+    }*/
 }

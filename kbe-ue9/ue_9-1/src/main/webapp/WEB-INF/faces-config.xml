@@ -5,9 +5,18 @@
         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
 
 
+<application>
+	<locale-config>
+	    <default-locale>de</default-locale>
+	</locale-config>
+	<message-bundle>
+		de.htw_berlin.ai_bachelor.kbe.checklist.messages_de
+	</message-bundle>
+</application>
+
+
 <navigation-rule>
-<!-- //TODO -->
-<from-view-id>editToDoList.xhtml</from-view-id>
+	<from-view-id>editToDoList.xhtml</from-view-id>
 	<navigation-case>
 		<from-action>#{list.save}</from-action>
 		<to-view-id>/editToDoList.xhtml</to-view-id>
@@ -15,3 +24,4 @@
 </navigation-rule>
 
 </faces-config>
+
