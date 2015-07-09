@@ -19,6 +19,7 @@ public class ToDo implements Serializable {
 	@Future(message="Das Fälligkeitsdatum muss in der Zukunft liegen.")
 	private Date date;
 	
+	@MyInterval
 	private int priority;
 	
 	private ToDo(String name, boolean done, Date date) {

@@ -8,7 +8,7 @@ import javax.validation.constraints.Min;
 
 @ManagedBean(name="priority", eager=true)
 @ApplicationScoped
-public class priorityIntervalMB implements Serializable {
+public class PriorityIntervalMB implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -17,11 +17,11 @@ public class priorityIntervalMB implements Serializable {
 	@Min(value=2)
 	private int max;
     
-	public priorityIntervalMB() {
+	public PriorityIntervalMB() {
 		this.max = 2;
 	}    
 
-	public priorityIntervalMB(int max) {
+	public PriorityIntervalMB(int max) {
 		this.max = max;
 	}	
 
