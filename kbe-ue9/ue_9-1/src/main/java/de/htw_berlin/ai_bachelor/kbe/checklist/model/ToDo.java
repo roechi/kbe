@@ -4,17 +4,21 @@ import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
 
+import javax.validation.constraints.Future;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 public class ToDo implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
-
+	
 	private String name;
 	private boolean done = false;
+	
+	@Future(message="Das Fälligkeitsdatum muss in der Zukunft liegen.")
 	private Date date;
 	
 	private ToDo(String name, boolean done, Date date) {
-		super();
 		this.name = name;
 		this.done = done;
 		this.date = date;

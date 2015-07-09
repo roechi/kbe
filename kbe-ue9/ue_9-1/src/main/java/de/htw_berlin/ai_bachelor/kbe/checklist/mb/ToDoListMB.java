@@ -10,7 +10,7 @@ import javax.faces.validator.ValidatorException;
 
 import de.htw_berlin.ai_bachelor.kbe.checklist.model.ToDoList;
 
-@ManagedBean(name="list")
+@ManagedBean(name="list", eager=true)
 @SessionScoped
 public class ToDoListMB implements Serializable {
 
@@ -23,7 +23,6 @@ public class ToDoListMB implements Serializable {
 		this.toDoList = new ToDoList();
 	}    
 
-	//TODO
     public ToDoList getToDoList() {
         return toDoList;
     }
