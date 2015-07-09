@@ -12,12 +12,12 @@ public class priorityIntervalMB implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	@Min(value=1)
-	private int min;
+	
+	private final int min = 1;
+	@Min(value=2)
 	private int max;
     
 	public priorityIntervalMB() {
-		this.min = 1;
 		this.max = 2;
 	}    
 
@@ -31,10 +31,6 @@ public class priorityIntervalMB implements Serializable {
     
     public int getMin() {
     	return min;
-    }
-    
-    public void setMin(int min) {
-    	this.min = min;
     }
     
     public int getMax() {

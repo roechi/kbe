@@ -18,10 +18,7 @@
    				<h:outputText value="Minimum:"></h:outputText>
     		</h:column>
     		<h:column>
-   				<h:inputText id="min" value="#{prio.min}"></h:inputText>
-    		</h:column>
-    		<h:column>
-    			<h:message for="min"></h:message>
+   				<h:outputText value="#{prio.min}"></h:outputText>
     		</h:column>
     	</h:dataTable>
     	<h:dataTable value="#{priority}" var="prio">

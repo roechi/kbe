@@ -24,7 +24,7 @@
 </navigation-rule>
 
 <navigation-rule>
-	<from-view-id>editPriorityInterval.xhtml</from-view-id>
+	<from-view-id>editInterval.xhtml</from-view-id>
 	<navigation-case>
 		<from-action>#{priority.save}</from-action>
 		<to-view-id>/editToDoList.xhtml</to-view-id>
