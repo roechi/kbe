@@ -13,15 +13,19 @@ public class ToDo implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private String name;
+	
 	private boolean done = false;
 	
 	@Future(message="Das Fälligkeitsdatum muss in der Zukunft liegen.")
 	private Date date;
 	
+	private int priority;
+	
 	private ToDo(String name, boolean done, Date date) {
 		this.name = name;
 		this.done = done;
 		this.date = date;
+		this.priority = 1;
 	}
 	
 	public ToDo(String name, Date date) {
@@ -56,5 +60,12 @@ public class ToDo implements Serializable {
 		return date;
 	}
 	
+	public int getPriority() {
+		return priority;
+	}
+	
+	public void setPriority(int priority) {
+		this.priority = priority;
+	}
 	
 }

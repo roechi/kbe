@@ -25,15 +25,24 @@
 				#{toDo.name}
 			</h:column>
 			<h:column>
-				<h:selectBooleanCheckbox value="#{toDo.done}"/>
-			</h:column>
-			<h:column>
+				<f:facet name="header">fällig am</f:facet>
 				<h:inputText value="#{toDo.date}" id="DueDate" label="Due Date" required="true" requiredMessage="Es muss ein Wert eingegeben werden.">
 					<f:convertDateTime pattern="dd.MM.yyyy"/>
 				</h:inputText>
 			</h:column>
 			<h:column>
 				<h:message for="DueDate" styleClass="warn"/>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Priorität</f:facet>
+				<h:inputText id="priority" value="#{toDo.priority}"></h:inputText>
+			</h:column>
+			<h:column>
+				<h:message for="priority" styleClass="warn"/>
+			</h:column>
+			<h:column>
+				<f:facet name="header">erledigt</f:facet>
+				<h:selectBooleanCheckbox value="#{toDo.done}"/>
 			</h:column>
 		</h:dataTable>
 		
